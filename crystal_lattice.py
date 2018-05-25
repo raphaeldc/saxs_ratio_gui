@@ -24,3 +24,5 @@ crystals = {
             'Fd3m': np.array([np.sqrt(3), np.sqrt(8), np.sqrt(11), np.sqrt(12), np.sqrt(16), np.sqrt(19),
                      np.sqrt(24)])
 }
+
+a = crystals['Im3m'][0]

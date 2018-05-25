@@ -22,9 +22,9 @@ def saxs_plot(files, strucs, first_peaks, sample_names, log=True, begin=0, end=0
             if strucs[j] in ratios:
                 for index in ratios[strucs[j]]:
                     a.axvline(x=first_peaks[j] * index, ls='-.', color=lines[j], lw=0.5)
+                a.legend(strucs[j])
         a.set_xlabel('q [nm^(-1)]')
         a.set_yticks([])
-        a.legend()
         #plt.show()
     else:
         for j in range(len(strucs)):
