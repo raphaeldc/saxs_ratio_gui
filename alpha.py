@@ -50,7 +50,7 @@ button_open.pack(side=Tk.TOP)
 
 # chamando função saxs_plot
 
-f = saxs_plot(['ra_10LA_1_norm_minus_agua_7_norm.dat','ra_10LH_1_norm_minus_agua_7_norm.dat'], ['Fd3m', 'Pn3m','Pn3m'], [0.91, 1.21, 1.3])
+f = saxs_plot(['ra_10LA_1_norm_minus_agua_7_norm.dat','ra_10LH_1_norm_minus_agua_7_norm.dat'], ['Fd3m', 'Pn3m','Pn3m'], [0.91, 1.21, 1.3]   ,['0.05% C14','2% C14'])
 
 
 
